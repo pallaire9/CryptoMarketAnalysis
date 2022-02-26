@@ -16,7 +16,7 @@ def getCoins():
     }
     headers = {
         'Accepts': 'application/json',
-        'X-CMC_PRO_API_KEY': 'c591b568-cdf2-4b8f-806b-adcb6fc0b31b',
+        'X-CMC_PRO_API_KEY': '',
     }
 
     session = Session()
