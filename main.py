@@ -92,9 +92,9 @@ def plotPriceCorr():
     plt.show()
 
     s3 = boto3.resource('s3',
-                        aws_access_key_id='AKIAZFG4R33ZQZTKGD3P',
-                        aws_secret_access_key='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')
-
+                        aws_access_key_id=,
+                        aws_secret_access_key=)
+'3w4UU
     s3.meta.client.upload_file('CryptoPriceCorr.png', 'crypttrack-daily', 'CryptoPriceCorr.png',
                                ExtraArgs={'ACL': 'public-read'})
 
